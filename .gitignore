@@ -1,0 +1,37 @@
+# Object files
+*.o
+
+# Backup and temporary files
+*~
+*.tmp
+*.bak
+
+# Executables
+*.out
+
+
+# Binary directory (if you use 'bin/')
+bin/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Debug logs and dumps
+*.log
+*.dSYM/
+*.stackdump
+
+# Makefile backups
+Makefile~
+
+# Local-only development history (not for publication)
+docs/history-local.md
+
+# Generated results (regenerable, see images/LR/*/README.md)
+ImageResults/
+
+# Superseded input images, kept only as local reference
+images/backup/
+

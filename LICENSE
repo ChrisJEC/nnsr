@@ -1,0 +1,82 @@
+Copyright (C) 2012-2026 Christian Enriquez
+
+IMPORTANT — READ BEFORE REUSING COMMERCIALLY:
+This program links against the `nn` library, which in turn compiles
+Jonathan Shewchuk's Triangle (see notice #3 below). Triangle's license
+prohibits commercial distribution without the author's direct written
+permission. As a result, the compiled nnsr binary as a whole CANNOT be
+sold or distributed as part of a commercial product — regardless of the
+GPLv2 terms below — unless you obtain separate permission from Shewchuk
+for Triangle, or replace/remove that dependency. Non-commercial, research,
+and educational use is unaffected.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+---
+
+## Notices for third-party libraries:
+
+### 1. FFTW3 (Fast Fourier Transform library)
+This project uses FFTW3, which is licensed under the GNU General Public
+License, version 2 or (at your option) any later version (GPL-2.0-or-later).
+For more information, see: http://www.fftw.org/doc/License.html
+
+### 2. libjpeg
+This project uses libjpeg, which is licensed under the Independent JPEG Group License (IJG License), a permissive free software license.
+
+### 3. nn - Natural Neighbors Interpolation (by Pavel Sakov and CSIRO)
+This project uses `nn`, a Natural Neighbor Interpolation library, under the following terms:
+
+Copyright (C) 2000-2008 Pavel Sakov and CSIRO
+
+Redistribution and use of material from the package `nn`, with or without
+modification, are permitted provided that the following conditions are 
+met:
+
+   1. Redistributions of material must retain the above copyright notice, this
+      list of conditions and the following disclaimer.
+   2. The names of the authors may not be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHORS "AS IS" AND ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGE.
+
+#### Triangle (bundled inside `nn`, by Jonathan Richard Shewchuk)
+Copyright 1993, 1995, 1997, 1998, 2002 Jonathan Richard Shewchuk
+
+Private, research, and institutional use is free. No compensation may
+be received for distributing this code or software derived from it.
+Distribution as part of a commercial system is permitted ONLY by direct
+arrangement with the author. See `nn-c/nn/triangle.c` / `triangle.h` for
+the full original notice.
+
+**This is the term that makes the whole nnsr binary non-commercial —
+see the notice at the top of this file.**
+
+### 4. libm (math library)
+This project uses the standard math library `libm`, provided under permissive terms, commonly available in GNU C Library.
+
+---
+
+## Contact
+
+For questions about this project, contact Christian Enriquez at cjenriquezc@gmail.com.
