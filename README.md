@@ -4,8 +4,7 @@ This project implements a **Super-Resolution Image Reconstruction** algorithm
 based on **Natural Neighbor Interpolation**, originally developed as part of
 a thesis in **2012**, and later published in the paper
 [Super-Resolution Image Reconstruction using Natural Neighbor Interpolation](https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462015000200002)
-(*Computación y Sistemas*, Vol. 19, No. 2, 2015 — also included as
-[`docs/v19n2a2.pdf`](docs/v19n2a2.pdf)).
+(*Computación y Sistemas*, Vol. 19, No. 2, 2015).
 
 From multiple low-resolution (LR) images of the same scene with sub-pixel
 shifts between them, the algorithm estimates motion between frames (via an
@@ -39,7 +38,6 @@ nnsr/
 ├── include/nnsr.h          # Header / configuration constants
 ├── Makefile                # Builds ./bin/nnsr
 ├── docs/
-│   ├── v19n2a2.pdf          # The published paper
 │   └── known-issues.md      # Known bugs / limitations
 ├── images/
 │   ├── LR/                  # Low-resolution test datasets, one folder each,
