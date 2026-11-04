@@ -1,5 +1,7 @@
 # Natural Neighbor Super-Resolution (nnsr)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23934443.svg)](https://doi.org/10.5281/zenodo.23934443)
+
 This project implements a **Super-Resolution Image Reconstruction** algorithm
 based on **Natural Neighbor Interpolation**, originally developed as part of
 a thesis in **2012**, and later published in the paper
@@ -163,12 +165,17 @@ and third-party notices (FFTW3, libjpeg, `nn`, Triangle).
 
 ## Reference
 
-If you use this software in academic work, please cite:
+If you use the **algorithm/method**, please cite the paper:
 
 > Enríquez-Cervantes, C. J. & Rodríguez-Dagnino, R. M. (2015). **A
 > Super-Resolution Image Reconstruction using Natural Neighbor
 > Interpolation**. *Computación y Sistemas*, 19(2), 211-231.
 > https://doi.org/10.13053/CyS-19-2-2068
+
+If you use this **specific software implementation**, please cite it directly:
+
+> Enríquez, C. (2026). *nnsr: Natural Neighbor Super-Resolution* (v1.0.0).
+> Zenodo. https://doi.org/10.5281/zenodo.23934443
 
 ---
 
